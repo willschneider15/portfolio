@@ -16,8 +16,21 @@ module.exports = {
   variants: {
     extend: {},
   },
-  // plugins: [require("daisyui"), require('tailwind-scrollbar')],
-  // daisyui: {
-  //   themes: ["black"],
-  // },
+  plugins: [require("daisyui"), require('tailwind-scrollbar')],
+  daisyui: {
+    themes: ["black",
+      ,{
+        day: {
+           
+          "primary": "#f3f4f6",
+                    
+          "secondary": "#d1d5db",
+                    
+          "accent": "#67e8f9",
+          "neutral": "#f3f4f6",
+          "base-100": "#ffffff",
+        },
+      },
+  ],
+  },
 };
