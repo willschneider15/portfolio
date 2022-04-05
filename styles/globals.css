@@ -23,3 +23,10 @@ body {
 video {
   max-height: 100%;
 }
+
+.header {
+  min-height: calc(100vh - 60px);
+}
+
+
+
