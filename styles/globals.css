@@ -28,5 +28,16 @@ video {
   min-height: calc(100vh - 60px);
 }
 
+#particle-wave {
+  width: 1024px;
+  height: 512px;
+  background-color: #1E1D46;
+}
+
+hr{
+  background-color: rgb(107 114 128);
+  height: 1px; 
+  border: 0; 
+}
 
 

@@ -1,20 +1,29 @@
 import type { NextPage } from "next";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Transition } from "@headlessui/react";
 import Image from "next/image";
-import Logo from "../public/streamlineLogo.png";
 import Link from "next/link";
 
 import dynamic from "next/dynamic";
 
+import { themeChange } from 'theme-change'
 
-const NavBar: NextPage = () => {
+
+
+
+export default function NavBar(): JSX.Element {
 	const [isOpen, setIsOpen] = useState(false);
+
+	useEffect(() => {
+		themeChange(false)
+	  }, [])
+	// This is neccessary for allowing users to change the theme on page changes
+
 	return (
         
 		<div>
-            <script src="https://cdn.jsdelivr.net/npm/theme-change@2.0.2/index.js"></script>
-			<nav className="shadow-md fixed w-full z-10 pt-5 pb-5">
+           
+			<nav className="bg-primary shadow-md fixed w-full z-10 pt-5 pb-5">
 				<div className="w-full">
 					<div className="flex items-center h-20 w-full">
 						<div className="flex items-center mx-10 md:mx-20  justify-between w-full">
@@ -168,4 +177,3 @@ const NavBar: NextPage = () => {
   );
 };
 
-export default NavBar;
