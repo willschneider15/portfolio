@@ -42,11 +42,118 @@ const Experience: NextPage = () => {
 
         </Head>
 
-        <NavBar/>
+        <div className="sticky z-50">
+            <NavBar />
+        </div>
       
         <div className="bg-base-200">
             <div className="pt-40 mx-10 md:mx-20 ">
-                <h1>in progress</h1>
+        
+                {/*Fairmount Circle Dentistry*/}
+                <div className="hero">
+                
+                    <div className="flex-col hero-content lg:flex-row-reverse md:pt-20">
+                        <Image src="/images/exxaverse.png" className="object-contain " alt="Weapons" width={600} height={600}/>
+                        
+                        <div className="md:m-10">
+                            <h2 className="mb-5 font-bold text-2xl">
+                            EXXAVERSE
+                            </h2> 
+                            <ul className="mb-5 text-lg list-disc pl-10">
+                            
+                         
+                                <li>Designed, developed, and deployed a NextJS website.</li> 
+                                <li>Created NFT minting functionality on NEAR and Solana.</li>
+                                <li className="pb-8">Produced $75,000 of revenue for the business from the mint.</li> 
+    
+                                <a href={"https://exxaverse.com/"} target="_blank" rel="noopener noreferrer" className="cursor-pointer bg-cyan-500 text-grey-300 hover:bg-cyan-400 text-white px-3 py-2 rounded-md md:text-xl font-medium">
+                                    Website
+                                </a>
+                            </ul>
+                         
+                          
+                        </div>
+                    </div>
+                </div>
+
+                {/*Exxaverse*/}
+
+                <div className="hero">
+                
+                    <div className="flex-col hero-content lg:flex-row">
+
+                        <Image src="/images/fairmount.png" className="object-contain" alt="FairmountCircle" width={600} height={600}/>
+                        <div className="md:m-10">
+                            <h2 className="mb-5 font-bold text-2xl">
+                            FAIRMOUNT CIRCLE DENTISTRY
+                            </h2> 
+                            <ul className="mb-5 text-lg list-disc pl-10">
+                            
+                         
+                                <li>Designed, developed, and deployed a NextJS website.</li> 
+                                <li>Created NFT minting functionality on NEAR and Solana.</li>
+                                <li className="pb-8">Produced $75,000 of revenue for the business from the mint.</li> 
+    
+                                <a href={"https://www.fairmountcircledentistry.com/"} target="_blank" rel="noopener noreferrer" className="cursor-pointer bg-cyan-500 text-grey-300 hover:bg-cyan-400 text-white px-3 py-2 rounded-md md:text-xl font-medium">
+                                    Website
+                                </a>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                {/*Ditch The Pitch*/}
+
+                <div className="hero">
+                
+                    <div className="flex-col hero-content lg:flex-row-reverse">
+                        <Image src="/images/ditchthepitch.png" className="object-contain" alt="3rdperson" width={600} height={600}/>
+                        <div className="md:m-10">
+                            <h2 className="mb-5 font-bold text-2xl">
+                            DITCH THE PITCH
+                            </h2> 
+                            <ul className="mb-5 text-lg list-disc pl-10">
+                            
+                         
+                            <li>Designed, developed, and deployed a NextJS website.</li> 
+                            <li>Created NFT minting functionality on NEAR and Solana.</li>
+                            <li className="pb-8">Produced $75,000 of revenue for the business from the mint.</li> 
+
+                            <a href={"http://ditchthepitch.biz/"} target="_blank" rel="noopener noreferrer" className="cursor-pointer bg-cyan-500 text-grey-300 hover:bg-cyan-400 text-white px-3 py-2 rounded-md md:text-xl font-medium">
+                                Website
+                            </a>
+                        </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+                {/*NearLinker*/}
+
+                <div className="hero">
+                
+                    <div className="flex-col hero-content lg:flex-row">
+                        <Image src="/images/nearlinker.png" className="object-contain" alt="pvp" width={600} height={600}/>
+                        <div className="md:m-10">
+                            <h2 className="mb-5 font-bold text-2xl">
+                            NEAR LINKER
+                            </h2> 
+                            <ul className="mb-5 text-lg list-disc pl-10">
+                            
+                         
+                                <li>Designed, developed, and deployed a NextJS website.</li> 
+                                <li>Created NFT minting functionality on NEAR and Solana.</li>
+                                <li className="pb-8">Produced $75,000 of revenue for the business from the mint.</li> 
+    
+                                <a href={"https://github.com/willschneider15/NearLinker"} target="_blank" rel="noopener noreferrer" className="cursor-pointer bg-cyan-500 text-grey-300 hover:bg-cyan-400 text-white px-3 py-2 rounded-md md:text-xl font-medium">
+                                    Github
+                                </a>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
             </div>
         </div>
         

@@ -5,11 +5,28 @@ import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 
 import Image from 'next/image'
-import Link from 'next/link'
 import React, { useState, useEffect } from "react";
 
 
+import { Swiper, SwiperSlide } from "swiper/react";
 
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/effect-coverflow"
+import "swiper/css/pagination"
+import "swiper/css/navigation"
+import "swiper/css/effect-fade";
+
+// import Swiper core and required modules
+import SwiperCore, {
+  Autoplay,
+  EffectFade,
+  EffectCoverflow,Pagination
+} from 'swiper';
+
+
+// install Swiper modules
+SwiperCore.use([EffectCoverflow,Pagination, Autoplay]);
 
 
 
@@ -44,30 +61,58 @@ const Home: NextPage = () => {
 
       </Head>
 
-      <NavBar/>
+        <div className="sticky z-50">
+                <NavBar />
+        </div>
       
       
 
-        <div className="hero header bg-base-200 mx-auto" >
+        <div className="hero header bg-base-200 mx-auto z-0" >
 
        
       
           <div className="hero-content flex flex-col justify-center items-center">
-            <div className="max-w-md md:pt-20 pt-36">
+            <div className="max-w-md md:pt-20 pt-36 pl-20">
 
+
+            <Swiper  grabCursor={true} centeredSlides={true} loop={true} slidesPerView={1}  autoplay={{
+                "delay": 1000,
+                
+                "disableOnInteraction": false }} 
 
               
-                  <Image src="/images/schneider.jpg" alt="will" className="cursor-pointer object-center object-cover mask mask-squircle object-center" width={300} height={300}/>
+              pagination={false} breakpoints={{
+                "640": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 20
+                },
+                "768": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 40
+                },
+                "1024": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 10
+                }}}className="mySwiper">
+                <SwiperSlide > <Image src="/images/schneider.jpg" alt="will" className="cursor-pointer object-center object-cover mask mask-squircle object-center" width={300} height={300}/></SwiperSlide>
+                <SwiperSlide > <Image src="/images/schneider2.jpg" alt="will" className="cursor-pointer object-center object-cover mask mask-squircle object-center" width={300} height={300}/></SwiperSlide>
+                <SwiperSlide > <Image src="/images/schneider1.jpg" alt="will" className="cursor-pointer object-center object-cover mask mask-squircle object-center" width={300} height={300}/></SwiperSlide>
+              </Swiper>
+                 
                 
 
               </div>
 
               <div className="bg-neutral py-10 px-10 mb-10 md:mb-0 text-center md:text-left">
-                  <p className="py-6 text-lg ">I am currently a Senior at the Ohio State University. 
-                  I am learning to become a Software Engineer. 
-                  Read about my interest in applying the future of technology. 
-                  Journey through my projects to see how my curiosity drives me. 
-                  Additionally, feel free to check out my resume. Actively seeking opportunities to advance my career.
+                  <p className="py-6 text-lg ">I am a senior at Ohio State University studying Software Engineering with 
+                  <a href={"/experience"} className="text-cyan-500 underline-offset-4 font-bold"> experience </a>
+                  in web development and business creation. 
+                  I am driven by curiosity to apply the future of technology in my work. Read here 
+                  <a href={"/about"} className="text-cyan-500 underline-offset-4 font-bold"> about </a> 
+                  my wide ranging interests through multiple projects.  
+                  I have attached my 
+                  <a href={"/resume"} className="text-cyan-500 underline-offset-4 font-bold"> resume </a>
+                  and I am actively seeking opportunities to advance my career.
                   </p>
                   <p className="text-lg">P.S. this website is open-source and available on 
                     <a href={"https://github.com/willschneider15/portfolio"} target="_blank" rel="noopener noreferrer" className="text-cyan-500 underline-offset-4 font-bold"> Github</a>.
