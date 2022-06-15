@@ -49,7 +49,7 @@ const Experience: NextPage = () => {
         <div className="bg-base-200">
             <div className="pt-40 mx-10 md:mx-20 ">
         
-                {/*Fairmount Circle Dentistry*/}
+                 {/*Exxaverse*/}
                 <div className="hero">
                 
                     <div className="flex-col hero-content lg:flex-row-reverse md:pt-20">
@@ -75,9 +75,8 @@ const Experience: NextPage = () => {
                         </div>
                     </div>
                 </div>
-
-                {/*Exxaverse*/}
-
+    
+                {/*Fairmount Circle Dentistry*/}
                 <div className="hero">
                 
                     <div className="flex-col hero-content lg:flex-row">
@@ -90,9 +89,9 @@ const Experience: NextPage = () => {
                             <ul className="mb-5 text-lg list-disc pl-10">
                             
                          
-                                <li>Designed, developed, and deployed a NextJS website.</li> 
-                                <li>Created NFT minting functionality on NEAR and Solana.</li>
-                                <li className="pb-8">Produced $75,000 of revenue for the business from the mint.</li> 
+                                <li>Managed team to design and deploy Webflow website.</li> 
+                                <li>Enhanced SEO thru improved on-site metrics.</li>
+                                <li className="pb-8">Increased new patient inquiries by 80% per month.</li> 
     
                                 <a href={"https://www.fairmountcircledentistry.com/"} target="_blank" rel="noopener noreferrer" className="cursor-pointer bg-cyan-500 text-grey-300 hover:bg-cyan-400 text-white px-3 py-2 rounded-md md:text-xl font-medium">
                                     Website
@@ -104,24 +103,22 @@ const Experience: NextPage = () => {
                 </div>
 
                 {/*Ditch The Pitch*/}
-
                 <div className="hero">
                 
                     <div className="flex-col hero-content lg:flex-row-reverse">
-                        <Image src="/images/ditchthepitch.png" className="object-contain" alt="3rdperson" width={600} height={600}/>
+                        <Image src="/images/imagerunner.png" className="object-contain" alt="3rdperson" width={600} height={600}/>
                         <div className="md:m-10">
                             <h2 className="mb-5 font-bold text-2xl">
-                            DITCH THE PITCH
+                            IMAGE RUNNER
                             </h2> 
                             <ul className="mb-5 text-lg list-disc pl-10">
                             
-                         
-                            <li>Designed, developed, and deployed a NextJS website.</li> 
-                            <li>Created NFT minting functionality on NEAR and Solana.</li>
-                            <li className="pb-8">Produced $75,000 of revenue for the business from the mint.</li> 
+                            <li>Implemented Google Cloud OCR to read hand written code.</li> 
+                            <li>Presented our project in front of a few hun</li>
+                            <li className="pb-8">Placed third at Hyland hackathon in 2019.</li> 
 
-                            <a href={"http://ditchthepitch.biz/"} target="_blank" rel="noopener noreferrer" className="cursor-pointer bg-cyan-500 text-grey-300 hover:bg-cyan-400 text-white px-3 py-2 rounded-md md:text-xl font-medium">
-                                Website
+                            <a href={"https://github.com/willschneider15/ImageRunner"} target="_blank" rel="noopener noreferrer" className="cursor-pointer bg-cyan-500 text-grey-300 hover:bg-cyan-400 text-white px-3 py-2 rounded-md md:text-xl font-medium">
+                                Github
                             </a>
                         </ul>
 
@@ -142,9 +139,9 @@ const Experience: NextPage = () => {
                             <ul className="mb-5 text-lg list-disc pl-10">
                             
                          
-                                <li>Designed, developed, and deployed a NextJS website.</li> 
-                                <li>Created NFT minting functionality on NEAR and Solana.</li>
-                                <li className="pb-8">Produced $75,000 of revenue for the business from the mint.</li> 
+                                <li>Recieved grant funding from the Near Foundation to complete the open source project.</li> 
+                                <li>Created a plan for connecting blockchains to game engines.</li>
+                                <li className="pb-8">Manged two developers in the implementation of the project.</li> 
     
                                 <a href={"https://github.com/willschneider15/NearLinker"} target="_blank" rel="noopener noreferrer" className="cursor-pointer bg-cyan-500 text-grey-300 hover:bg-cyan-400 text-white px-3 py-2 rounded-md md:text-xl font-medium">
                                     Github

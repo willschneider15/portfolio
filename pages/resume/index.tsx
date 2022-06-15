@@ -47,7 +47,7 @@ const Resume: NextPage = () => {
         </div>
       
         <div className="bg-base-200">
-            <div className="pt-40 pb-10 mx-10 md:mx-20 flex flex-col justify-center items-center">
+            <div className="pt-48 pb-10  flex flex-col justify-center items-center">
                 <Image src="/images/resume.png" className="object-contain" alt="pvp" width={1000} height={1000}/>
                 <a href={"/Resume.pdf"} target="_blank" rel="noopener noreferrer" className="mt-10 cursor-pointer bg-cyan-500 text-grey-300 hover:bg-cyan-400 text-white px-3 py-2 rounded-md md:text-xl font-medium ">
                     Download
