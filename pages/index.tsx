@@ -75,10 +75,11 @@ const Home: NextPage = () => {
             <div className="max-w-md md:pt-20 pt-36 mt-10 pl-20">
 
 
-            <Swiper  centeredSlides={true} loop={true} slidesPerView={1}  autoplay={{
-                "delay": 1000,
+            <Swiper effect="fade" centeredSlides={true} modules={[EffectFade]} loop={true} slidesPerView={1}  autoplay={{
+                "delay": 2000,
                 
                 "disableOnInteraction": false }} 
+
 
               
               pagination={false} breakpoints={{
