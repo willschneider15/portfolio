@@ -25,9 +25,9 @@ const NavBar: NextPage = () => {
 
 	return (
         
-		<div>
+		<div >
            
-           <nav className='flex items-center flex-wrap bg-primary shadow-md p-6 px-10 md:px-20 w-full fixed'>
+           <nav className='flex items-center flex-wrap bg-primary shadow-md p-6 px-10 md:px-20 w-full fixed backdrop-filter backdrop-blur-lg bg-opacity-30'>
                 <Link href='/'>
                     <a className="cursor-pointer text-2xl font-medium underline py-6">
                         William Schneider
