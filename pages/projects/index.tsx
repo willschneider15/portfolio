@@ -114,7 +114,7 @@ const Experience: NextPage = () => {
                             <ul className="mb-5 text-lg list-disc pl-10">
                             
                             <li>Implemented Google Cloud OCR to read hand written code.</li> 
-                            <li>Presented our project in front of a few hun</li>
+                            <li>Presented our project in front of a few hundred people.</li>
                             <li className="pb-8">Placed third at Hyland hackathon in 2019.</li> 
 
                             <a href={"https://github.com/willschneider15/ImageRunner"} target="_blank" rel="noopener noreferrer" className="cursor-pointer bg-cyan-500 text-grey-300 hover:bg-cyan-400 text-white px-3 py-2 rounded-md md:text-xl font-medium">
