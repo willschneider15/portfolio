@@ -106,9 +106,9 @@ const Home: NextPage = () => {
               </div>
 
               <div className="bg-neutral py-10 px-10 mb-10 md:mb-0 text-center md:text-left">
-                  <p className="py-6 text-lg ">I am a senior at Ohio State University studying Software Engineering with 
-                  <a href={"/experience"} className="text-cyan-500 underline-offset-4 font-bold"> experience </a>
-                  in web development and business creation. 
+                  <p className="py-6 text-lg ">I am a senior at <a href={"/about"} className="text-cyan-500 underline-offset-4 font-bold">Ohio State University</a> studying Computer Science Engineering with 
+                   experience
+                  in <a href={"/projects"} className="text-cyan-500 underline-offset-4 font-bold">web development</a> and business creation. 
                   I am driven by curiosity to apply the future of technology in my work. Read here 
                   <a href={"/about"} className="text-cyan-500 underline-offset-4 font-bold"> about </a> 
                   my wide ranging interests through multiple projects.  
