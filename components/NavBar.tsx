@@ -87,13 +87,24 @@ const NavBar: NextPage = () => {
                             <select data-choose-theme className="focus:outline-none h-10 rounded-full px-3 border cursor-pointer">
                                 <option value="day">Day</option>
 
-                                <option value="black">Night</option>
+                                <option value="black">Black</option>
+
+                                <option value="night">Night</option>
+
+                                <option value="coffee">Coffee</option>
+
+                                <option value="retro">Retro</option>
 
                             </select>
                         </div>
 
            
-
+                        {/* <div className="inline-block w-10">
+                            <span data-toggle-theme="black,day" data-act-class="pl-4" className="border rounded-full border-green-700 flex items-center cursor-pointer w-10 transition-all duration-300 ease-in-out pl-0">
+                                <span className="rounded-full w-3 h-3 m-1 bg-green-700">
+                                </span>
+                            </span>
+                        </div> */}
                         
                     </div>
                 </div>
