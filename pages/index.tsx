@@ -119,10 +119,8 @@ const Home: NextPage = () => {
                   <p className="text-lg">P.S. this website is open-source and available on 
                     <a href={"https://github.com/willschneider15/portfolio"} target="_blank" rel="noopener noreferrer" className="text-cyan-500 underline-offset-4 font-bold"> Github</a>.
                   </p>
-
-
               </div>
-              
+              {/* <LOGOS></LOGOS> */}
             </div>       
             
         </div>
