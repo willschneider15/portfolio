@@ -8,6 +8,8 @@ import dynamic from "next/dynamic";
 
 import { themeChange } from 'theme-change'
 
+import SwitchTheme from "./SwitchTheme";
+
 
 
 
@@ -18,14 +20,14 @@ const NavBar: NextPage = () => {
       setActive(!active);
     };
 
-	useEffect(() => {
-		themeChange(false)
-	  }, [])
+	// useEffect(() => {
+	// 	themeChange(false)
+	//   }, [])
 	// This is neccessary for allowing users to change the theme on page changes
 
 	return (
         
-		<div >
+
            
            <nav className='flex items-center flex-wrap bg-primary shadow-md p-6 px-10 md:px-20 w-full fixed backdrop-filter backdrop-blur-lg bg-opacity-30'>
                 <Link href='/'>
@@ -79,12 +81,15 @@ const NavBar: NextPage = () => {
                                 Resume
                             </a>
                         </Link>
+
+                        
                         
                 
                                 
                         <div className="md:m-5 pt-4 md:pt-0">
+                            <SwitchTheme/>
                         
-                            <select data-choose-theme className="focus:outline-none h-10 rounded-full px-3 border cursor-pointer">
+                            {/* <select data-choose-theme className="focus:outline-none h-10 rounded-full px-3 border cursor-pointer">
                                 <option value="day">Day</option>
 
                                 <option value="black">Black</option>
@@ -95,8 +100,8 @@ const NavBar: NextPage = () => {
 
                                 <option value="retro">Retro</option>
 
-                            </select>
-                        </div>
+                            </select> */}
+                        </div> 
 
            
                         {/* <div className="inline-block w-10">
@@ -110,7 +115,7 @@ const NavBar: NextPage = () => {
                 </div>
             </nav>
     
-		</div>
+
   );
 };
 

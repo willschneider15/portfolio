@@ -18,19 +18,22 @@ module.exports = {
   },
   plugins: [require("daisyui"), require('tailwind-scrollbar')],
   daisyui: {
-    themes: [{
+    themes: [
+    {
       day: {
-         
-        "primary": "#f3f4f6",
+           
+        primary: "#f3f4f6",
                   
-        "secondary": "#d1d5db",
+        secondary: "#d1d5db",
                   
-        "accent": "#67e8f9",
-        "neutral": "#f3f4f6",
+        accent: "#67e8f9",
+        neutral: "#f3f4f6",
         "base-100": "#ffffff",
       },
     },
-    "dark", "night", "coffee", "retro",  
+    "black", 
+
+  
   ],
   },
 };
