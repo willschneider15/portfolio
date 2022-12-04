@@ -72,7 +72,7 @@ const Home: NextPage = () => {
        
       
           <div className="hero-content flex flex-col justify-center items-center">
-            <div className="max-w-md md:pt-20 pt-36 mt-10 pl-20">
+            <div className="max-w-md md:pt-20 pt-36 mt-10 pl-25">
 
 
             <Swiper effect="fade" centeredSlides={true} modules={[EffectFade]} loop={true} slidesPerView={1}  autoplay={{
@@ -95,10 +95,10 @@ const Home: NextPage = () => {
                   "slidesPerView": 1,
                   "spaceBetween": 10
                 }}}className="mySwiper">
-                <SwiperSlide > <Image src="/images/schneider.jpg" alt="will" className="cursor-pointer object-center object-cover mask mask-squircle object-center" width={300} height={300}/></SwiperSlide>
-                <SwiperSlide > <Image src="/images/schneider1.jpg" alt="will" className="cursor-pointer object-center object-cover mask mask-squircle object-center" width={300} height={300}/></SwiperSlide>
-                <SwiperSlide > <Image src="/images/schneider2.jpg" alt="will" className="cursor-pointer object-center object-cover mask mask-squircle object-center" width={300} height={300}/></SwiperSlide>
-                <SwiperSlide > <Image src="/images/schneider3.jpg" alt="will" className="cursor-pointer object-center object-cover mask mask-squircle object-center" width={300} height={300}/></SwiperSlide>
+                <SwiperSlide > <Image src="/images/schneider.jpg" alt="will" className="cursor-pointer object-center object-cover mask mask-squircle  align-center object-center justify-center" width={250} height={250}/></SwiperSlide>
+                <SwiperSlide > <Image src="/images/schneider1.jpg" alt="will" className="cursor-pointer object-center object-cover mask mask-squircle align-center object-center justify-center" width={250} height={250}/></SwiperSlide>
+                <SwiperSlide > <Image src="/images/schneider2.jpg" alt="will" className="cursor-pointer object-center object-cover mask mask-squircle align-center object-center justify-center" width={250} height={250}/></SwiperSlide>
+                <SwiperSlide > <Image src="/images/schneider3.jpg" alt="will" className="cursor-pointer object-center object-cover mask mask-squircle align-center object-center justify-center" width={250} height={250}/></SwiperSlide>
               </Swiper>
                  
                 
