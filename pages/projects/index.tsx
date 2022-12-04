@@ -7,9 +7,9 @@ import Image from 'next/image'
 import React, { useState, useEffect } from "react";
 
 
+import { TbBrandNextjs, TbBrandPython, TbBrandFigma } from "react-icons/tb";
 
-
-
+import { SiUnrealengine, SiWebflow, SiPowershell, SiJavascript, SiAmazon, SiCplusplus, SiGooglecloud, SiTypescript } from "react-icons/si";
 
 const Experience: NextPage = () => {
   return (
@@ -52,14 +52,14 @@ const Experience: NextPage = () => {
                  {/*Exxaverse*/}
                 <div className="hero">
                 
-                    <div className="flex-col hero-content lg:flex-row-reverse md:pt-20">
+                    <div className="flex-col hero-content lg:flex-row-reverse">
                         <Image src="/images/exxaverse.png" className="object-contain " alt="Weapons" width={600} height={600}/>
                         
                         <div className="md:m-10">
                             <h2 className="mb-5 font-bold text-2xl">
                             EXXAVERSE
                             </h2> 
-                            <ul className="mb-5 text-lg list-disc pl-10">
+                            <ul className="mb-5 text-lg list-disc pl-10 pb-5">
                             
                          
                                 <li>Designed, developed, and deployed a NextJS website.</li> 
@@ -69,8 +69,14 @@ const Experience: NextPage = () => {
                                 <a href={"https://exxaverse.com/"} target="_blank" rel="noopener noreferrer" className="cursor-pointer bg-cyan-500 text-grey-300 hover:bg-cyan-400 text-white px-3 py-2 rounded-md md:text-xl font-medium">
                                     Website
                                 </a>
+                                
                             </ul>
-                         
+                            <div className="inline-flex pl-5">
+                                <TbBrandNextjs size={50}/>
+                                <SiUnrealengine size={60} className="pl-5 pb-2"/>
+                                <SiAmazon size={60} className="pl-5 pb-1"/>
+                                <SiTypescript size={60} className="pl-5 pb-3"/>
+                            </div>
                           
                         </div>
                     </div>
@@ -86,7 +92,7 @@ const Experience: NextPage = () => {
                             <h2 className="mb-5 font-bold text-2xl">
                             FAIRMOUNT CIRCLE DENTISTRY
                             </h2> 
-                            <ul className="mb-5 text-lg list-disc pl-10">
+                            <ul className="mb-5 text-lg list-disc pl-10 pb-5">
                             
                          
                                 <li>Managed team to design and deploy Webflow website.</li> 
@@ -97,6 +103,10 @@ const Experience: NextPage = () => {
                                     Website
                                 </a>
                             </ul>
+                            <div className="inline-flex pl-5">
+                                <SiWebflow size={50}/>
+                                <TbBrandFigma size={60} className="pl-5 pb-3"/>
+                            </div>
                         </div>
                         
                     </div>
@@ -108,10 +118,10 @@ const Experience: NextPage = () => {
                     <div className="flex-col hero-content lg:flex-row-reverse">
                         <Image src="/images/imagerunner.png" className="object-contain" alt="3rdperson" width={600} height={600}/>
                         <div className="md:m-10">
-                            <h2 className="mb-5 font-bold text-2xl">
+                            <h2 className="mb-5 font-bold text-2xl ">
                             IMAGE RUNNER
                             </h2> 
-                            <ul className="mb-5 text-lg list-disc pl-10">
+                            <ul className="mb-5 text-lg list-disc pl-10 pb-5">
                             
                             <li>Implemented Google Cloud OCR to read hand written code.</li> 
                             <li>Presented our project in front of a few hundred people.</li>
@@ -120,7 +130,12 @@ const Experience: NextPage = () => {
                             <a href={"https://github.com/willschneider15/ImageRunner"} target="_blank" rel="noopener noreferrer" className="cursor-pointer bg-cyan-500 text-grey-300 hover:bg-cyan-400 text-white px-3 py-2 rounded-md md:text-xl font-medium">
                                 Github
                             </a>
-                        </ul>
+                            </ul>
+                            <div className="inline-flex pl-5">
+                                <TbBrandPython size={50}/>
+                                <SiGooglecloud size={60} className="pl-5 pb-2"/>
+                              
+                            </div>
 
                         </div>
                     </div>
@@ -136,7 +151,7 @@ const Experience: NextPage = () => {
                             <h2 className="mb-5 font-bold text-2xl">
                             NEAR LINKER
                             </h2> 
-                            <ul className="mb-5 text-lg list-disc pl-10">
+                            <ul className="mb-5 text-lg list-disc pl-10 pb-5">
                             
                          
                                 <li>Recieved grant funding from the Near Foundation to complete the open source project.</li> 
@@ -147,6 +162,11 @@ const Experience: NextPage = () => {
                                     Github
                                 </a>
                             </ul>
+                            <div className="inline-flex pl-5">
+                                <SiJavascript size={50}/>
+                                <SiCplusplus size={65} className="pl-5 pb-4"/>
+                                <SiPowershell size={70} className="pl-5 pb-5"/>
+                            </div>
                         </div>
 
                     </div>
