@@ -1,5 +1,7 @@
 # William Schneider Portfolio
 
+## Test It Out For Free:  [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fwillschneider15%2Fportfolio)
+
 ## The Stack
 
 - [Vercel](https://vercel.com/) - hosting that works with Github.
