@@ -8,7 +8,7 @@ import dynamic from "next/dynamic";
 
 import { themeChange } from 'theme-change'
 
-import SwitchTheme from "./SwitchTheme";
+const SwitchTheme  = dynamic(() => import('./SwitchTheme'), { ssr: false });
 
 
 

@@ -116,7 +116,7 @@ const Home: NextPage = () => {
                   <a href={"/resume"} className="text-cyan-500 underline-offset-4 font-bold"> resume </a>
                   and I am actively seeking opportunities to advance my career.
                   </p>
-                  <p className="text-lg">P.S. this website is open-source and available on 
+                  <p className="text-lg">This website is open-source and available on 
                     <a href={"https://github.com/willschneider15/portfolio"} target="_blank" rel="noopener noreferrer" className="text-cyan-500 underline-offset-4 font-bold"> Github</a>.
                   </p>
               </div>
