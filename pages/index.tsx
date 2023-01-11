@@ -72,7 +72,7 @@ const Home: NextPage = () => {
        
       
           <div className="hero-content flex flex-col justify-center items-center">
-            <div className="max-w-md md:pt-20 pt-36 mt-10 pl-25">
+            <div className="max-w-md md:pt-20 pt-10 mt-10 pl-25">
 
 
             <Swiper effect="fade" centeredSlides={true} modules={[EffectFade]} loop={true} slidesPerView={1}  autoplay={{

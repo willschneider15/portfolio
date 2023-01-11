@@ -48,7 +48,7 @@ const About: NextPage = () => {
         </div>
       
         <div className="bg-base-200">
-            <div className="pt-40 mx-10 md:mx-20 ">
+            <div className="md:pt-40 pt-32 mx-10 md:mx-20 ">
                 <h1 className="text-2xl font-medium">About Me</h1>
                 <h2 className="text-md pt-4 pb-4">(8 Min Read)</h2>
                 <hr/>

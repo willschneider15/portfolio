@@ -47,7 +47,7 @@ const Experience: NextPage = () => {
         </div>
       
         <div className="bg-base-200">
-            <div className="pt-40 mx-10 md:mx-20 ">
+            <div className="md:pt-40 pt-10 mx-10 md:mx-20 ">
         
                  {/*Exxaverse*/}
                 <div className="hero">
