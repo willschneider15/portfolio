@@ -66,7 +66,7 @@ const Experience: NextPage = () => {
                                 <li>Created NFT minting functionality on NEAR and Solana.</li>
                                 <li className="pb-8">Produced $75,000 of revenue for the business from the mint.</li> 
     
-                                <a href={"https://website-exxaverse.vercel.app/"} target="_blank" rel="noopener noreferrer" className="cursor-pointer bg-cyan-500 text-grey-300 hover:bg-cyan-400 text-white px-3 py-2 rounded-md md:text-xl font-medium">
+                                <a href={"https://www.exxaverse.com/"} target="_blank" rel="noopener noreferrer" className="cursor-pointer bg-cyan-500 text-grey-300 hover:bg-cyan-400 text-white px-3 py-2 rounded-md md:text-xl font-medium">
                                     Website
                                 </a>
                                 
