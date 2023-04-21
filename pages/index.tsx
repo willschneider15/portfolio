@@ -75,7 +75,8 @@ const Home: NextPage = () => {
             <div className="max-w-md md:pt-20 pt-10 mt-10 pl-25">
 
 
-            <Swiper effect="fade" centeredSlides={true} modules={[EffectFade]} loop={true} slidesPerView={1}  autoplay={{
+              <Image src="/images/will.jpeg" alt="will" className="cursor-pointer object-center object-cover mask mask-squircle  align-center object-center justify-center" width={250} height={250}/>
+            {/* <Swiper effect="fade" centeredSlides={true} modules={[EffectFade]} loop={true} slidesPerView={1}  autoplay={{
                 "delay": 2000,
                 
                 "disableOnInteraction": false }} 
@@ -99,7 +100,7 @@ const Home: NextPage = () => {
                 <SwiperSlide > <Image src="/images/schneider1.jpg" alt="will" className="cursor-pointer object-center object-cover mask mask-squircle align-center object-center justify-center" width={250} height={250}/></SwiperSlide>
                 <SwiperSlide > <Image src="/images/schneider2.jpg" alt="will" className="cursor-pointer object-center object-cover mask mask-squircle align-center object-center justify-center" width={250} height={250}/></SwiperSlide>
                 <SwiperSlide > <Image src="/images/schneider3.jpg" alt="will" className="cursor-pointer object-center object-cover mask mask-squircle align-center object-center justify-center" width={250} height={250}/></SwiperSlide>
-              </Swiper>
+              </Swiper> */}
                  
                 
 
