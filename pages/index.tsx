@@ -110,8 +110,7 @@ const Home: NextPage = () => {
                   <p className="py-6 text-lg ">
                   I currently work as a Cloud Engineer at <a href={"/about"} className="text-cyan-500 underline-offset-4 font-bold">Cardinal Health</a>. 
                   I am driven by curiosity to apply the future of technology in my work. In my free time, I enjoy building and learning about cutting edge technologies. 
-                  <a href={"/about"} className="text-cyan-500 underline-offset-4 font-bold">Read here</a> 
-                  my wide ranging interests and professional journey.  
+                  <a href={"/about"} className="text-cyan-500 underline-offset-4 font-bold"> Read here</a> my wide ranging interests and professional journey.  
                   I have attached my 
                   <a href="/Resume.pdf" download className="text-cyan-500 underline-offset-4 font-bold"> CV </a>
                   for your review.
