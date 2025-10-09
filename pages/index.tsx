@@ -35,7 +35,7 @@ const Home: NextPage = () => {
    <>
 
       <Head>
-        <title>Wills Resume</title>
+        <title>William Schneider - Portfolio</title>
         <meta charSet="UTF-8" />
           <meta
             name="description"
@@ -107,15 +107,14 @@ const Home: NextPage = () => {
               </div>
 
               <div className="bg-neutral py-10 px-10 mb-10 md:mb-0 text-center md:text-left">
-                  <p className="py-6 text-lg ">I am a senior at <a href={"/about"} className="text-cyan-500 underline-offset-4 font-bold">Ohio State University</a> studying Computer Science Engineering with 
-                   experience
-                  in <a href={"/projects"} className="text-cyan-500 underline-offset-4 font-bold">web development</a> and business creation. 
-                  I am driven by curiosity to apply the future of technology in my work. Read here 
-                  <a href={"/about"} className="text-cyan-500 underline-offset-4 font-bold"> about </a> 
-                  my wide ranging interests through multiple projects.  
+                  <p className="py-6 text-lg ">
+                  I currently work as a Cloud Engineer at <a href={"/about"} className="text-cyan-500 underline-offset-4 font-bold">Cardinal Health</a>. 
+                  I am driven by curiosity to apply the future of technology in my work. In my free time, I enjoy building and learning about cutting edge technologies. 
+                  <a href={"/about"} className="text-cyan-500 underline-offset-4 font-bold">Read here</a> 
+                  my wide ranging interests and professional journey.  
                   I have attached my 
-                  <a href={"/resume"} className="text-cyan-500 underline-offset-4 font-bold"> resume </a>
-                  and I am actively seeking opportunities to advance my career.
+                  <a href="/Resume.pdf" download className="text-cyan-500 underline-offset-4 font-bold"> CV </a>
+                  for your review.
                   </p>
                   <p className="text-lg">This website is open-source and available on 
                     <a href={"https://github.com/willschneider15/portfolio"} target="_blank" rel="noopener noreferrer" className="text-cyan-500 underline-offset-4 font-bold"> Github</a>.

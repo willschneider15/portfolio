@@ -66,14 +66,9 @@ const NavBar: NextPage = () => {
                                 About
                             </a>
                         </Link>
-                        <Link href="/projects">
+                        <Link href="/blog">
                             <a className="cursor-pointer hover:bg-cyan-500 text-grey-300 hover:text-white px-3 py-2 rounded-md md:text-xl font-medium">
-                                Projects
-                            </a>
-                        </Link>
-                        <Link href="/resume">
-                            <a className="cursor-pointer hover:bg-cyan-500 text-grey-300 hover:text-white px-3 py-2 rounded-md md:text-xl font-medium">
-                                Resume
+                                Blog
                             </a>
                         </Link>
 
