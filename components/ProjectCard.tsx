@@ -22,7 +22,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   techStack
 }) => {
   return (
-    <Link href={projectUrl} target="_blank" rel="noopener noreferrer" className="block">
+    <Link href={projectUrl} passHref>
+      <a target="_blank" rel="noopener noreferrer" className="block">
       <div className="cursor-pointer bg-base-100 hover:bg-base-200 transition-colors duration-200 rounded-lg border border-base-300 shadow-lg overflow-hidden h-full max-w-lg mx-auto">
         <Image 
           src={imageSrc} 
@@ -51,6 +52,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           </div>
         </div>
       </div>
+      </a>
     </Link>
   );
 };

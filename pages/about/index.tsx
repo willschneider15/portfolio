@@ -60,7 +60,7 @@ const About: NextPage = () => {
                 </p>
                 <p className="text-lg pt-4 pb-4 font-medium">CURRENTLY</p>
                 <p className="text-md pb-4">
-                I work as a cloud engineer at Cardinal Health, where I've been since I was 24. I continue to build full-stack applications on the side and stay engaged with emerging technologies. I have also begun playing more
+                I work as a cloud engineer at Cardinal Health, where I&apos;ve been since I was 24. I continue to build full-stack applications on the side and stay engaged with emerging technologies. I have also begun playing more
                 <a href={"https://www.chess.com/member/willsc20"} target="_blank" rel="noopener noreferrer" className="text-cyan-500 underline-offset-4 font-bold"> chess. </a>
                 Feel free to challenge me! 
 
